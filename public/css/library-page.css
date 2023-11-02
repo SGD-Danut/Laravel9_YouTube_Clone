@@ -1,0 +1,68 @@
+/* Cod pentru paginare */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .page-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .page-link {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  .page-link:hover {
+    background-color: #ddd;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .page-item.disabled .page-link {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  .small.text-muted {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .small.text-muted span {
+    margin: 0 5px;
+    font-weight: 500;
+  }
+.d-none.flex-sm-fill.d-sm-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Cod pentru butonul 'Vez mai mult' */
+
+.show-more-link {
+  padding: 5px 20px;
+  background-color: transparent;
+  color: #007bff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.7s ease, color 0.3s ease;
+  float: right;
+}
+
+.show-more-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+    
